@@ -20,8 +20,8 @@ export class HomePage implements OnInit {
 
   loadMap() {
     Environment.setEnv({
-      'API_KEY_FOR_BROWSER_DEBUG': 'AIzaSyB73sL-1xGYLjDF0v1i2RSDrqDLjEmDdLI',
-      'API_KEY_FOR_BROWSER_RELEASE': 'AIzaSyB73sL-1xGYLjDF0v1i2RSDrqDLjEmDdLI'
+      'API_KEY_FOR_BROWSER_DEBUG': 'AIzaSyDH18-aav2PEzu3AFkr1EIOZMmiD1Gj5v278',
+      'API_KEY_FOR_BROWSER_RELEASE': 'AIzaSyDH18-aav2PEzu3AFkr1EIOZMmiD1Gj5v278'
     });
 
     this.map = GoogleMaps.create('map_canvas');

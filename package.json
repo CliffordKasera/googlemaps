@@ -28,13 +28,14 @@
     "cordova-android": "7.0.0",
     "cordova-browser": "5.0.4",
     "cordova-plugin-device": "^2.0.2",
-    "cordova-plugin-googlemaps": "^2.4.6",
+    "cordova-plugin-googlemaps": "git+https://github.com/mapsplugin/cordova-plugin-googlemaps.git#multiple_maps",
     "cordova-plugin-ionic-keyboard": "^2.1.3",
     "cordova-plugin-ionic-webview": "^2.3.1",
     "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-whitelist": "^1.3.3",
     "core-js": "^2.5.4",
+    "emulator": "0.1.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
@@ -67,15 +68,17 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-googlemaps": {
-        "API_KEY_FOR_ANDROID": "AIzaSyB73sL-1xGYLjDF0v1i2RSDrqDLjEmDdLI"
-      },
       "cordova-plugin-whitelist": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-googlemaps": {
+        "API_KEY_FOR_ANDROID": "AIzaSyDH18-v2PEzu3AFkr1EIOZMmiD1Gj5v278",
+        "PLAY_SERVICES_VERSION": "15.0.1",
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      }
     },
     "platforms": [
       "browser",
